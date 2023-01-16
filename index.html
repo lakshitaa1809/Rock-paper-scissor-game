@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROCK PAPER AND SCISSORS GAME</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <form id="mainpage">
+      <div class="gamename">
+        <h1 classname="gametitle"> ROCK, PAPER AND SCISSORS</h1>
+        <input type="button" id="playnow" value="PLAY NOW ▶" />
+        <div class="hints">
+          <h2 class="clue" >Before clicking PLAY NOW ▶ button <br>
+            Read how to play <br></h2>
+          <p id= "hint"> Game play -between player and computer.
+            Player click any one of the image button.</br>
+            Computer automatically selects any one of the choice.</br>
+                  Total turns:10,Score is displayed in scoreboard.</br>
+                  Results will be displayed who is winner.</br>
+                  if you want to play again..Click tryagain button to play again.</p>
+                </div> 
+      </div>
+    </form>
+    <form id="gamepage">
+      <div class="startgame">
+        <div class="game">
+          <div class="hints">
+            <p id= "Game play -between player and computer.<br>Player click any one of the image button<br>Computer automatically selects any one of the choice.<br>
+                    Total turns:10,Score is displayed in scoreboard.<br>Results will be displayed who is winner<br>if you want to play again..Click tryagain button to play again.
+                    </div>
+                    
+          <div class="buttons">
+            <input type="button" class="rock" id="ROCK">
+              <img class="rockicon" id="ROCK" src="./images/rock.png" />
+            </input>
+            <input type="button" class="paper" id="PAPER">
+              <img class="papericon" id="PAPER" src="./images/paper.png" />
+            </input>
+            <input type="button"class="scissor" id="SCISSOR"value="">
+              <img
+                class="scissoricon"
+                id="SCISSOR"
+                src="./images/scissors.png"
+              />
+            </input>
+          </div>
+          
+          <div class="play">
+            <p id="playerchoice"></p>
+            <p id="computerchoice"></p>
+          </div>
+          <div class="output">
+            <p id="totround"></p>
+            <p id="round"></p>
+            <p id="res"></p>
+            <p id="compres"></p> 
+          </div>
+          <div class="winner"><h1 id="winner"></h1></div>
+        </div>
+      </div>
+      <button class="tryagain" id="tryagain">Try Again</button>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>
