@@ -30,7 +30,7 @@ h1 {
   width: 1000px;
   height: 1000px;
 }
-<<<<<<< HEAD
+
 .clue {
   position: relative;
   top: 28px;
@@ -47,14 +47,9 @@ h1 {
   position: relative;
   right: 50px;
   bottom: 60px;
+  font-size: 20px;
 }
-=======
-.hints{
-  width:300px;
-  margin-left:10px;
-  display:flex;
-  flex-wrap:wrap}
->>>>>>> f5c090fee9d54eb1bad76236f267526f7a38a152
+
 .game {
   width: 600px;
   height: 350px;
@@ -161,7 +156,7 @@ h1 {
 }
 .tryagain {
   position: relative;
-  bottom: 760px;
+  bottom: 1050px;
   left: 540px;
   border: none;
   width: 150px;
